@@ -26,7 +26,7 @@ jobs:
 
       - name: Check for test
         run: |
-          if [ -f BarcodeUtilTest.kt ]; then
+          if [ -f /src/main/kotlin/util/BarcodeUtilTest.kt ]; then
             echo "Barcode util test found!"
           else
             echo "Test script not found" > error.txt
