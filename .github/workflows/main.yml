@@ -27,6 +27,7 @@ jobs:
         with:
          java-version: '11'
          distribution: 'adopt'
+         architecture: 'arm64'
 
       - name: Check for test
         run: |
