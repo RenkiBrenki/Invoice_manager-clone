@@ -30,6 +30,7 @@ jobs:
             echo "Barcode util test found!"
           else
             echo "Test script not found" > error.txt
+            ls -l
             exit 1
           fi
         continue-on-error: true
